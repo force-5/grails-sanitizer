@@ -10,12 +10,18 @@ grails.project.dependency.resolution = {
 		mavenLocal()
 		mavenCentral()
 		mavenRepo "https://repository.sonatype.org/content/repositories/central"
+		mavenRepo "https://repo.grails.org/grails/core"
+		mavenRepo "https://repo.grails.org/grails/plugins"
 	}
 
 	dependencies {
 		compile('org.owasp.antisamy:antisamy:1.5.3')
 		runtime('net.sourceforge.nekohtml:nekohtml:1.9.16') {
 			excludes "xml-apis"
+		}
+		build ('org.kuali.maven.wagons:maven-s3-wagon:1.1.22') {
+			export = false
+			exclude 'slf4j-log4j12'
 		}
 	}
 
