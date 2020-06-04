@@ -28,12 +28,15 @@ grails.project.dependency.resolution = {
 	inherits 'global'
 	log 'warn'
         repositories {
+			grailsCentral()
+			mavenLocal()
+			mavenCentral()
+			mavenRepo "https://repository.sonatype.org/content/repositories/central"
+			mavenRepo "https://repo.grails.org/grails/core"
+			mavenRepo "https://repo.grails.org/grails/plugins"
+			mavenRepo "https://repo1.maven.org/maven2"
             mavenLocal()
-            //grailsCentral()
-            //mavenCentral()
-	    mavenRepo "https://repository.sonatype.org/content/repositories/central"
-            mavenRepo(id:"avisoapp", url:"https://build.avisoapp.com/artifactory/libs-release")
-	}
+          }
 
 	dependencies {
 		compile('org.owasp.antisamy:antisamy:1.5.3')
