@@ -12,6 +12,7 @@ grails.project.dependency.resolution = {
 		mavenRepo "https://repository.sonatype.org/content/repositories/central"
 		mavenRepo "https://repo.grails.org/grails/core"
 		mavenRepo "https://repo.grails.org/grails/plugins"
+		mavenRepo "https://repo1.maven.org/maven2"
 	}
 
 	dependencies {

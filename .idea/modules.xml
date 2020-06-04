@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/grails-sanitizer.iml" filepath="$PROJECT_DIR$/grails-sanitizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/projects/sanitizerExample/sanitizerExample.iml" filepath="$PROJECT_DIR$/test/projects/sanitizerExample/sanitizerExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/projects/sanitizerExample/sanitizerExample-grailsPlugins.iml" filepath="$PROJECT_DIR$/test/projects/sanitizerExample/sanitizerExample-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
