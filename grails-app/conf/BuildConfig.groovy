@@ -43,6 +43,10 @@ grails.project.dependency.resolution = {
 		runtime('net.sourceforge.nekohtml:nekohtml:1.9.16') {
 			excludes "xml-apis"
 		}
+		build ('org.kuali.maven.wagons:maven-s3-wagon:1.1.22') {
+			export = false
+			exclude 'slf4j-log4j12'
+		}
 	}
 
 	plugins {
